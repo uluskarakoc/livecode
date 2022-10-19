@@ -38,4 +38,4 @@ Horizontal line `---`:
 
 ---
 
-Just a normal paragraph.
+Ein normaler Absatz mit **fettem** Text, oder auch *kursivem* Text.
