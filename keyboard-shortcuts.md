@@ -1,12 +1,14 @@
+CTRL == STRG
+SHIFT == Umschalten
 # Keyboard Shortcuts
-
-CTRL-S => Speichern
 
 CTRL-X => Ausschneiden
 CTRL-C => Kopieren in Zwischenablage
 CTRL-V => Einfügen aus Zwischenablage
 
-
 ## VS-Code
 
-CTRL-SHIFT-V => Preview/Vorschau
+CTRL-S          => Speichern
+CTRL-SHIFT-V    => Preview/Vorschau
+CTRL-N          => Neue Datei
+F2              => Umbenennen
