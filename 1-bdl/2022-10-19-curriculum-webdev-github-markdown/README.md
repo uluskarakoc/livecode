@@ -4,12 +4,7 @@
 
 - Web Dev curriculum overview
 
-## SSH
-- public key
-  - `ssh-keygen`
-- configuration
-
-## GitHub - Version Control with `git`
+## GitHub - Web-Interface
 - lokal & verteilt
   - lokal
     - add
@@ -23,7 +18,6 @@
     - Hinzufügen der Students
   - initial commit
   - pull
-
 
 ## VS-Code
 - GUI
@@ -42,3 +36,26 @@
 - Lists
 - Preformatted text
 - Markdown documentation
+
+## Terminal
+### Introduction
+- The terminal prompt line
+
+### Quick overview of paths in the a unix filesystem:
+- The 'pwd' command
+- The '/' folder
+- The home folder and `~` shortcut
+
+### Moving around
+- The `cd` command
+- Absolute paths (beginning with `/`)
+- Relative paths: the `..` shortcut, navigating into sub folders
+- The last directory shortcut: `cd -`
+- The current directory shortcut: '.'
+
+### Reading directories
+- The `ls` command
+- List directories and files: `ls -l`
+- Showing hidden files: `ls -a` flag
+- Combining flags `ls -la`
+- The `ll` shortcut

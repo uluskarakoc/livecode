@@ -1,4 +1,4 @@
-# Linux Commands
+# Linux Commandline
 
 ## Pfade
 Das Linux Dateisystem ist als Baum aufgebaut. Das Wurzelverzeichnis ist `/`. Jedes Verzeichnis kann Dateien enhalten, u. a. andere Verzeichnisse, man sagt auch Unterverzeichnisse. Alle Verzeichnisse haben Elternverzeichnisse, nur das Wurzelverzeichnis hat *kein* Elternverzeichnis.
