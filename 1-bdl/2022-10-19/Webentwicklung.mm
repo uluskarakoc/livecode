@@ -1,0 +1,136 @@
+<map version="freeplane 1.7.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="Webentwicklung" FOLDED="false" ID="ID_1549836667" CREATED="1666165428473" MODIFIED="1666166212688" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Was ist Webentwicklung?" POSITION="right" ID="ID_1077051143" CREATED="1666165437938" MODIFIED="1666165446782">
+<edge COLOR="#ff0000"/>
+</node>
+<node TEXT="Webanwendung" POSITION="right" ID="ID_198339747" CREATED="1666165744995" MODIFIED="1666166212686" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="-30.749999083578615 pt">
+<edge COLOR="#7c007c"/>
+<node TEXT="Webpage" FOLDED="true" ID="ID_1047288009" CREATED="1666165759627" MODIFIED="1666165766623">
+<node TEXT="HTML" ID="ID_1478691534" CREATED="1666165868809" MODIFIED="1666165871020"/>
+<node TEXT="CSS" ID="ID_1456143346" CREATED="1666165871305" MODIFIED="1666165872892"/>
+<node TEXT="Javascript" ID="ID_107771768" CREATED="1666165889593" MODIFIED="1666165909865"/>
+</node>
+<node TEXT="Website" ID="ID_851030175" CREATED="1666165767067" MODIFIED="1666165769741"/>
+<node TEXT="Komplexe Anwendungen" ID="ID_469985770" CREATED="1666165788866" MODIFIED="1666165819734"/>
+<node TEXT="auf einem Server liegen die Dateien der Webanwedung" ID="ID_849548361" CREATED="1666165958775" MODIFIED="1666166031529" HGAP_QUANTITY="13.250000022351742 pt" VSHIFT_QUANTITY="18.749999441206473 pt">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_107771768" STARTINCLINATION="222;0;" ENDINCLINATION="222;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1456143346" STARTINCLINATION="261;0;" ENDINCLINATION="261;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1478691534" STARTINCLINATION="264;0;" ENDINCLINATION="264;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_170714528" STARTINCLINATION="198;0;" ENDINCLINATION="198;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="https://digitalcareerinstitute.org/homepage.html" ID="ID_608027408" CREATED="1666166050589" MODIFIED="1666166097396"/>
+</node>
+<node TEXT="l&#xe4;uft im Browser (Client)" FOLDED="true" ID="ID_170714528" CREATED="1666165842409" MODIFIED="1666166028196" HGAP_QUANTITY="14.749999977648258 pt" VSHIFT_QUANTITY="23.999999284744284 pt">
+<node TEXT="Firefox" ID="ID_1954158059" CREATED="1666166115164" MODIFIED="1666166118142"/>
+<node TEXT="Chrome" ID="ID_1845786916" CREATED="1666166118315" MODIFIED="1666166119661"/>
+<node TEXT="Safari" ID="ID_133027969" CREATED="1666166119819" MODIFIED="1666166122502"/>
+<node TEXT="..." ID="ID_854863032" CREATED="1666166123236" MODIFIED="1666166125962"/>
+<node TEXT="Browser stellen Webseiten dar (f&#xfc;hren die Webanwendung aus)" ID="ID_579946800" CREATED="1666166133491" MODIFIED="1666166151154"/>
+</node>
+</node>
+<node TEXT="Frontend" POSITION="right" ID="ID_959344933" CREATED="1666165458322" MODIFIED="1666166204708" HGAP_QUANTITY="15.499999955296518 pt" VSHIFT_QUANTITY="40.49999879300598 pt">
+<edge COLOR="#0000ff"/>
+<node TEXT="Das Frontend wird im Browser ausgef&#xfc;hrt." ID="ID_1769207130" CREATED="1666166168316" MODIFIED="1666166222490">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_170714528" STARTINCLINATION="-11;-7;" ENDINCLINATION="1;35;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Push Button" ID="ID_720945549" CREATED="1666165491009" MODIFIED="1666165494155"/>
+<node TEXT="Aktionen" ID="ID_122818238" CREATED="1666165494441" MODIFIED="1666165496870"/>
+</node>
+<node TEXT="Backend" POSITION="right" ID="ID_184654699" CREATED="1666165716846" MODIFIED="1666165718591">
+<edge COLOR="#007c00"/>
+</node>
+<node TEXT="Skript" POSITION="right" ID="ID_572960937" CREATED="1666165538120" MODIFIED="1666165543231">
+<edge COLOR="#00007c"/>
+<node TEXT="Was passiert, wenn eine Aktion angesto&#xdf;en wird?" ID="ID_1203551619" CREATED="1666165544769" MODIFIED="1666165558681"/>
+<node TEXT="Startmen&#xfc;" ID="ID_1031630093" CREATED="1666165569272" MODIFIED="1666165573794"/>
+<node TEXT="Verlinkungen" ID="ID_474937116" CREATED="1666165573959" MODIFIED="1666165577683"/>
+<node TEXT="Wege zwischen Seiten" ID="ID_1980148622" CREATED="1666165578023" MODIFIED="1666165583137"/>
+<node TEXT="Bezahlsystem" ID="ID_15825485" CREATED="1666165587335" MODIFIED="1666165592138">
+<node TEXT="Abrechnung" ID="ID_1728255689" CREATED="1666165595943" MODIFIED="1666165598441"/>
+</node>
+<node TEXT="Werbung" ID="ID_952136448" CREATED="1666165592295" MODIFIED="1666165594778"/>
+<node TEXT="Kontaktinformationen" ID="ID_789100024" CREATED="1666165604215" MODIFIED="1666165611877">
+<node TEXT="Kontaktformular" ID="ID_532152625" CREATED="1666165612623" MODIFIED="1666165615540"/>
+</node>
+<node TEXT="Rechte" ID="ID_92846617" CREATED="1666165617318" MODIFIED="1666165619041">
+<node TEXT="Nutzergruppen" ID="ID_558198400" CREATED="1666165629390" MODIFIED="1666165633176">
+<node TEXT="Basis" ID="ID_280340705" CREATED="1666165619486" MODIFIED="1666165623728"/>
+<node TEXT="Pro-Mitglied" ID="ID_1113802756" CREATED="1666165623958" MODIFIED="1666165628417"/>
+<node TEXT="Admin" ID="ID_1534964062" CREATED="1666165646926" MODIFIED="1666165650394"/>
+</node>
+</node>
+</node>
+<node TEXT="User" POSITION="right" ID="ID_1812455216" CREATED="1666165488227" MODIFIED="1666165490085">
+<edge COLOR="#7c0000"/>
+</node>
+<node TEXT="Websites" POSITION="right" ID="ID_900970811" CREATED="1666165474898" MODIFIED="1666165477431">
+<edge COLOR="#00ff00"/>
+</node>
+<node TEXT="Domains" POSITION="right" ID="ID_1890952008" CREATED="1666165477601" MODIFIED="1666165479076">
+<edge COLOR="#ff00ff"/>
+</node>
+</node>
+</map>
