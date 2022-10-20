@@ -36,10 +36,10 @@ help COMMAND
 
 ## Reading files
 ```bash
-cat
-less
-head
-tail
+cat FILE
+less FILE
+head FILE
+tail FILE
 ```
 
 ## Introduction
