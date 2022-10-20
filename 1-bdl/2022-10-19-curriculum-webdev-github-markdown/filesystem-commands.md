@@ -30,18 +30,19 @@ projects    # Unterverzeichnis
 Der ["Filesystem Hierarchy Standard"](https://de.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) definiert wie ein Dateisystembaum unter Linux aufgebaut sein sollte.
 
 ### Befehle fürs Dateisystem
-
-`pwd` - gibt das aktuelle Arbeitsverzeichnis aus
-`cd [DIR]` - Wechseln in ein Verzeichnis
+```
+pwd - gibt das aktuelle Arbeitsverzeichnis aus
+cd [DIR] - Wechseln in ein Verzeichnis
     - `cd` - wechselt in das Heimatverzeichnis (`~`)
     - `cd -` - wechselt in das Verzeichnis in dem man zuvor war.
-`mkdir DIRNAME` - erstellt ein Verzeichnis
-`cat FILE` - gibt eine Datei aus
-`ls` - listet den Inhalt eines Verzeichnisses
+mkdir DIRNAME - erstellt ein Verzeichnis
+cat FILE` - gibt eine Datei aus
+ls - listet den Inhalt eines Verzeichnisses
     - `ls DIR`
     - `ls FILE`
     - `ls -l` - -l => lange/detailierte Ausgabe
     - `ls -a` - -a => alle (auch versteckte) Dateien
     - `ls -l -a` oder kurz: `ls -la` - kombiniert `-l` und `-a`
-`tree` - gibt den Verzeichnisinhalt recursiv aus, d. h. alle Verzeichnisse und Unterverzeichnisse und Dateien.
+tree - gibt den Verzeichnisinhalt recursiv aus, d. h. alle Verzeichnisse und Unterverzeichnisse und Dateien.
     - `tree -l 1` - begrenzt die Ausgabe auf eine (`1`) Ebene.
+```
