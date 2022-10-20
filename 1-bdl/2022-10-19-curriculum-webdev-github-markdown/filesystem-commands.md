@@ -4,7 +4,7 @@
 Das Linux Dateisystem ist als Baum aufgebaut. Das Wurzelverzeichnis ist `/`. Jedes Verzeichnis kann Dateien enhalten, u. a. andere Verzeichnisse, man sagt auch Unterverzeichnisse. Alle Verzeichnisse haben Elternverzeichnisse, nur das Wurzelverzeichnis hat *kein* Elternverzeichnis.
 
 ### Absolute Pfade
-Absolute Pfade beginnen mit dem Wurzelverzeichnis, also:
+Absolute Pfade beginnen mit dem Wurzelverzeichnis `/`, also:
 ```bash
 /
 /etc
