@@ -27,7 +27,7 @@ projects    # Unterverzeichnis
 
 ## Datei-/Filesystem
 
-Der "Filesystem Hierarchy Standard" definiert wie ein Dateisystembaum unter Linux aufgebaut sein sollte.
+Der ["Filesystem Hierarchy Standard"](https://de.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) definiert wie ein Dateisystembaum unter Linux aufgebaut sein sollte.
 
 ### Befehle fürs Dateisystem
 
