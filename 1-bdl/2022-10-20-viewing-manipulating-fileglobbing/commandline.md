@@ -13,7 +13,7 @@ $ COMMAND -h
 $ COMMAND --help
 ```
 
-## Parameters/Arguments/Switches
+## Parameters/Arguments/Flags/Switches
 
 Kommandozeilen-Parameter beginnen häufig mit `--` oder `-`, zwei `--` leiten die lange Form ein, ein `-` die Kurzform. Die Kurzformen können abgekürzt werden, bspw.:
 
@@ -79,3 +79,31 @@ ls *.?? # passt auf alle Dateien, die mit einem "." und zwei beliebigen Zeichen 
 # diese sogenannten Wildcards (`*` und `?`) 
 # können auch in Pfadangaben genutzt werden.
 ```
+
+## Mehrere Befehle hintereinander
+```bash
+# Zwei Kommandos nacheinander:
+CMD_1; CMD_2
+
+# CMD_2 nur wenn CMD_1 erfolgreich war:
+CMD_1 && CMD_2
+
+```
+
+## Nachtrag:
+shell bash terminal
+
+Flags/Switches/Parameter/Argumente/
+
+Aliases:
+`alias X="CMD"` - erstellt den Alias "X" für das Kommando "CMD"
+`~/.bash_aliases` - konfiguriert Aliases
+`ll` ist ein Alias für `ls -la`
+
+Paketlisten Aktualisieren:
+`sudo apt update`
+
+Software/Paket Updates:
+`sudo apt upgrade`
+
+`npm` steht für "node packet manager"
