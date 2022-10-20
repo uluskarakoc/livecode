@@ -107,3 +107,5 @@ Software/Paket Updates:
 `sudo apt upgrade`
 
 `npm` steht für "node packet manager"
+
+git clone http://
