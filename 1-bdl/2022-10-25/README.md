@@ -29,6 +29,7 @@ https://github.com/DigitalCareerInstitute/BDL-versioning-workflow/
 - Merging with `git merge`
 
 https://github.com/DigitalCareerInstitute/BDL-versioning-branches/
+
 ---
 
 ## Introduction
@@ -47,15 +48,8 @@ https://github.com/DigitalCareerInstitute/BDL-versioning-branches/
 
 https://github.com/DigitalCareerInstitute/BDL-publishing-github/
 
-## Advanced Authoring (Github Flavoured Markdown)
-- External links
-- Internal links (anchors)
-- Images
-- Emoji
-- Checkboxes
-- Tables
 
-https://github.com/DigitalCareerInstitute/BDL-publishing-authoring
+markdown:? https://github.com/DigitalCareerInstitute/BDL-publishing-authoring
 
 ## Locals and Remotes
 - Local repository vs. Remote repository
