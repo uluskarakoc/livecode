@@ -1,6 +1,76 @@
-# Version Control with `git`
+# Recap
 
-git locally?
+## Markdown
+- Rezept
+  - Listen
+  - Bilder
+
+## GitHub Integration
+- mit SSH
+- 
+- Ziel: Rezepte `pushen`
+
+# Version Control with `git`
+## Lokal mit `git` Arbeiten
+
+Um ein Repository mit `git` zu verwalten, wird das folgenden genutzt:
+```bash
+git init . 
+# dieses Kommando stellt das aktuelle Verzeichnis `.` unter git-Verwaltung
+
+#Die Haupkonfigurationsdatei befindet sich dann unter:
+.git/config
+
+```
+
+- Working Tree
+- Staging Area
+- Commit
+- Repository
+  - local
+  - remote
+
+- Branch
+
+## `git` Anwendungsfälle
+
+```bash
+# Anlegen eines Repos im aktuellen Verzeichnis:
+git init . 
+
+# aktueller Status des Repos:
+git status
+
+# Datei "FILE" zu 'staging area' Hinzufügen
+git add FILE
+
+# Committen der Dateien in der 'staging area':
+git commit -m "MESSAGE"
+
+# Versionsgeschichte:
+git log
+
+# Springen zwischen Versionen (commits)
+git checkout COMMIT_HASH
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Introduction
 - Version Control Systems (VCS)
