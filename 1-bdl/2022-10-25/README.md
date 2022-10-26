@@ -5,11 +5,6 @@
   - Listen
   - Bilder
 
-## GitHub Integration
-- mit SSH
-- 
-- Ziel: Rezepte `pushen`
-
 # Version Control with `git`
 ## Lokal mit `git` Arbeiten
 
@@ -32,10 +27,10 @@ git init .
 
 - Branch
 
-## `git` Anwendungsfälle
+## `git` Anwendungsfälle (engl. 'use cases')
 
 ```bash
-# Anlegen eines Repos im aktuellen Verzeichnis:
+# Anlegen eines Repos im aktuellen Verzeichnis
 git init . 
 
 # aktueller Status des Repos:
@@ -44,7 +39,7 @@ git status
 # Datei "FILE" zu 'staging area' Hinzufügen
 git add FILE
 
-# Committen der Dateien in der 'staging area':
+# "Committen" der Dateien in der 'staging area'
 git commit -m "MESSAGE"
 
 # Versionsgeschichte:
@@ -54,23 +49,6 @@ git log
 git checkout COMMIT_HASH
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Introduction
 - Version Control Systems (VCS)
@@ -92,23 +70,11 @@ https://github.com/DigitalCareerInstitute/BDL-versioning-workflow/
 
 ---
 
-## Branching
-- Moving through the history with `git checkout <commit hash>`
-- Branching out with `git checkout -b <branch name>`
-- Viewing branches with `git branch`
-- Merging with `git merge`
-
-https://github.com/DigitalCareerInstitute/BDL-versioning-branches/
+## GitHub Integration
+- mit SSH
+- Ziel: Rezepte `pushen`
 
 ---
-
-## Introduction
-- How the internet works (quick overview of TCP/IP)
-
-## Internet Basics: Quick anatomy of a URL
-- The protocol (brief overview): HTTP, HTTPS, SSH, FTP
-- The address / host: IP addresses, DNS, domain name
-- The resource path
 
 ## Github
 - The Github website
@@ -151,6 +117,15 @@ https://github.com/DigitalCareerInstitute/BDL-collaborating-conflicts
 - Merging on GitHub
 
 https://github.com/DigitalCareerInstitute/BDL-collaborating-review/
+---
+
+## Branching
+- Moving through the history with `git checkout <commit hash>`
+- Branching out with `git checkout -b <branch name>`
+- Viewing branches with `git branch`
+- Merging with `git merge`
+
+https://github.com/DigitalCareerInstitute/BDL-versioning-branches/
 
 ---
 
@@ -159,3 +134,12 @@ https://github.com/DigitalCareerInstitute/BDL-collaborating-review/
 - Discuss basic concepts, Q&A"
 
 Do: Assessment
+
+
+## Introduction
+- How the internet works (quick overview of TCP/IP)
+
+## Internet Basics: Quick anatomy of a URL
+- The protocol (brief overview): HTTP, HTTPS, SSH, FTP
+- The address / host: IP addresses, DNS, domain name
+- The resource path
