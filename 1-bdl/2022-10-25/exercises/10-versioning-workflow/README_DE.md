@@ -1,6 +1,6 @@
 # Workflow
 
-**Anweisungen**
+## Beschreibung
 * Erstelle einen Ordner.
 * Erstelle ein Git Repo in diesem Ordner.
 * Erstelle eine Readme-Datei in dem Ordner.
