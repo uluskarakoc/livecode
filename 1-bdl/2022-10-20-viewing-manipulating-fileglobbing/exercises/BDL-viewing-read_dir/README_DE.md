@@ -1,8 +1,22 @@
 # Verzeichnisse lesen
 
-**Anleitungen**
+**Beschreibung**
 * Öffne ein Verzeichnis auf deinem Computer, z.B. Dokumente.
-* Liste alle Inhalte des Verzeichnisses auf.
+```bash
+$ cd ~/Documents
+$ cd ~/Dokumente
+```
+
+* Liste die Inhalte des Verzeichnisses auf.
+`$ ls`
+
 * Zeige alle versteckten Ordner und Dateien an.
-* Details zu allen Dateien und Ordnern mit einer Befehlsverknüpfung abrufen.
-* Welchen Befehlskurzbefehl hast du benutzt, um alle Details zu sehen? Schreibe deine Antwort unten auf.
+```bash
+$ ll
+$ ls -a -l
+$ ls -al
+$ ls -la
+```
+
+* Details zu allen Dateien und Ordnern mit einem 'alias' abrufen.
+`$ ll`
