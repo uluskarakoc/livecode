@@ -3,7 +3,7 @@
 ## Introduction
 - How the internet works (quick overview of TCP/IP)
 
-## Internet Basics: Quick anatomy of a URL
+## Internet Basics: Quick anatomy of a URL (Uniform Resource Locator)
 - The protocol (brief overview): HTTP, HTTPS, SSH, FTP
 - The address / host: IP addresses, DNS, domain name
 - The resource path
