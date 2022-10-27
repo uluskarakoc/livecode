@@ -21,5 +21,6 @@ $ cp README.md target/.
 ```
 
 * Erstelle eine weitere Kopie der Liesmich-Datei und füge sie in `target` hinzu.
-
+```
 $ cp README.md target/README-2.md
+```
