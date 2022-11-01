@@ -1,5 +1,5 @@
 # Thomas: "~/.bash_aliases"
-# 
+
 alias gitc='git commit -m'
 alias gits='git status'
 
