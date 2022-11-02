@@ -1,5 +1,7 @@
 # UIB
 
+Terminal auf "Deutsch":
+[Locale](https://www.shellhacks.com/linux-define-locale-language-settings/)
 
 [BDL-Assessment II](https://forms.gle/cgv7kzHaiXX1j1Sq8)
 
