@@ -1,6 +1,7 @@
 # UIB
 
-[BDL-Assessment II](https://docs.google.com/forms/d/1IOd-ItJayLdfi5Yn60lcK7y8xOtNchugTDdZReIXGxA/edit)
+
+[BDL-Assessment II](https://forms.gle/cgv7kzHaiXX1j1Sq8)
 
 ## Links:
 
@@ -27,9 +28,6 @@
 - Character set
 - `<html>` is the root element
 - `<head>`, `<body>`, `<title>`
-
-https://github.com/DigitalCareerInstitute/UIB-boilerplate-head
-https://github.com/DigitalCareerInstitute/UIB-boilerplate-HTML_doc
 
 ## Up and Running
 - Anatomy of an element (opening tag, content, closing tag)
