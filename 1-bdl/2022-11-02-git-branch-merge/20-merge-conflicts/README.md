@@ -1,2 +1,2 @@
 Neue Erste Zeile
-Zweite Zeile geändert im Lokalen Repository
+Zweite Zeile via GitHub
