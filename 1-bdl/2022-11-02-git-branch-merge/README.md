@@ -1,5 +1,7 @@
 # Overview of additional `git`-Use-Cases
 
+TODO: Stephanie, git, key, setup
+
 ## BDL-Assessment II
 
 ## Review
