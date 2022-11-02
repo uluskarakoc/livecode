@@ -1,5 +1,10 @@
 # Overview of additional `git`-Use-Cases
 
+## BDL-Assessment II
+
+## Review
+- Mindmap "Recap"
+
 ## Branching
 - Moving through the history with `git checkout <commit hash>`
 - Branching out with `git checkout -b <branch name>`
