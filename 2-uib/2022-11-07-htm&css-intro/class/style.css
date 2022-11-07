@@ -9,6 +9,17 @@ td {
 table {
   color: aqua;
 }
-td {
-  color: black;
+nav {
+  background-color: black;
+  color: gainsboro;
+  font-size: 0.75rem;
+  width: 100vw;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  /* border: 2px solid red; */
+  width: 6rem;
 }
