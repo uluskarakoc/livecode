@@ -12,3 +12,16 @@ html {
 .li-box {
   color: purple;
 }
+/* element,element Selector
+  element AND element 
+  */
+table,
+.li-box {
+  border: 2px solid black;
+}
+/* element element Selector
+  aka element inside element 
+  */
+div p {
+  color: brown;
+}
