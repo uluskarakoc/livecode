@@ -25,3 +25,14 @@ table,
 div p {
   color: brown;
 }
+/* element>element	 Selector  
+  element parent element 
+  */
+div > p {
+  color: blue;
+}
+/* element1~element2 Selector 
+  element preceded element */
+table ~ ol {
+  font-size: 4rem;
+}
