@@ -1,0 +1,14 @@
+/* CSS selectors */
+
+/* Element selector */
+html {
+  background-color: black;
+}
+/* #ID selector */
+#li1 {
+  color: orange;
+}
+/* .class selector */
+.li-box {
+  color: purple;
+}
