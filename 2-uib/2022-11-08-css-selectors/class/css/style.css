@@ -73,4 +73,19 @@ ol + div {
 /* longTrip long using ~ -> long */
 
 /* pseudo class  */
+table:hover {
+  background-color: chartreuse;
+}
+
+/* :nth-child() */
+/* 1st, 2nd , 3th, 4th, 5th, nth */
+tr:nth-child(3) td:nth-child(3) {
+  color: red;
+}
+tr:nth-child(5n) {
+  background-color: brown;
+}
+tr:nth-child(1) :nth-child(n + 1):nth-child(-n + 2) {
+  border: 3px dashed blue;
+}
 /* rem, em, in, cm, %, px */
