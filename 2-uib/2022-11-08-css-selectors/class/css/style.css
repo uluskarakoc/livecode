@@ -64,4 +64,13 @@ ol + div {
 [class$="class"] {
   border: 2px solid pink;
 }
+[class*="long"] {
+  /* border: 3px solid hotpink; */
+  height: 3rem;
+}
+
+/* longTrip long using * -> longTrip long */
+/* longTrip long using ~ -> long */
+
+/* pseudo class  */
 /* rem, em, in, cm, %, px */
