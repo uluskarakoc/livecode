@@ -2,7 +2,7 @@
 
 /* Element selector */
 html {
-  background-color: black;
+  background-color: gray;
 }
 /* #ID selector */
 #li1 {
@@ -17,7 +17,7 @@ html {
   */
 table,
 .li-box {
-  border: 2px solid black;
+  border: 2px solid green;
 }
 /* element element Selector
   aka element inside element 
@@ -36,3 +36,32 @@ div > p {
 table ~ ol {
   font-size: 4rem;
 }
+/* element+element  Selector
+  element immediately after element */
+ol + div {
+  background-color: aqua;
+}
+/* [attribute] Selector */
+[name] {
+  background-color: chocolate;
+}
+/* [attribute=value] Selector  */
+[name="user-name"] {
+  border: 2px solid red;
+}
+/* [attribute~=value] Selector
+  containing the value */
+[class~="this"] {
+  background-color: orange;
+}
+/* [attribute^=value] Selector
+  begins with the value */
+[name^="user"] {
+  font-size: 0.4rem;
+}
+/* [attribute$=value] Selector
+  value ends with  */
+[class$="class"] {
+  border: 2px solid pink;
+}
+/* rem, em, in, cm, %, px */
