@@ -46,6 +46,17 @@
             background-color: #acf; /* #RRGGBB */
         }
 
+        .little_alpha {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .medium_alpha {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .big_alpha {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
 </style>
 </head>
 <body>
@@ -53,15 +64,24 @@
 
     <table>
         <tr>
+            <td>Named Colors:</td>
             <td class="red">Rot</td>
             <td class="green">Grün</td>
             <td class="blue">Blau</td>
         </tr>
 
         <tr class="rgb_row">
+            <td>RGB-Colors:</td>
             <td class="rgb_red">RGB</td>
             <td class="rgb_green">RGB</td>
             <td class="rgb_blue">RGB</td>
+        </tr>
+
+        <tr>
+            <td>Transparent Colors <br>(alpha-Channel)</td>
+            <td class="little_alpha"></td>
+            <td class="medium_alpha"></td>
+            <td class="big_alpha"></td>
         </tr>
     </table>
 </body>
