@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <style>
+        body {
+            background-color: orange;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: lightblue;
+        }
+
+        .rgb_row td {
+            border-color: grey;
+        }
+
+        .rgb_red {
+            background-color: rgb(255, 0, 0);
+        }
+
+        .rgb_green {
+            background-color: rgb(0, 255, 0);
+        }
+
+        .rgb_blue {
+            /* background-color: rgb(0, 0, 255); */
+            /* hex-Code sind 16 verschiedene Ziffern 0123456789abcdef */
+            /* background-color: #00f; */ /* #RGB */
+            /* background-color: #0000ff; #RRGGBB */
+            background-color: #acf; /* #RRGGBB */
+        }
+
+        .little_alpha {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .medium_alpha {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .big_alpha {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+</style>
+</head>
+<body>
+    <h1>Farben (Colors)</h1>
+
+    <table>
+        <tr>
+            <td>Named Colors:</td>
+            <td class="red">Rot</td>
+            <td class="green">Grün</td>
+            <td class="blue">Blau</td>
+        </tr>
+
+        <tr class="rgb_row">
+            <td>RGB-Colors:</td>
+            <td class="rgb_red">RGB</td>
+            <td class="rgb_green">RGB</td>
+            <td class="rgb_blue">RGB</td>
+        </tr>
+
+        <tr>
+            <td>Transparent Colors <br>(alpha-Channel)</td>
+            <td class="little_alpha"></td>
+            <td class="medium_alpha"></td>
+            <td class="big_alpha"></td>
+        </tr>
+    </table>
+</body>
+</html>
