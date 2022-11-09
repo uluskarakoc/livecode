@@ -1,7 +1,7 @@
 # UIB - Meta-Talk (HTML, Struktur, Layout), Mengenlehre und Mailto, CSS-Colors, Pseudo-Classes
 
 ## Talk
-- Trennung von Struktur und Layout
+- Trennung von Struktur (html) und Layout (css)
 - HTML als ein Baum
 - Mengenlehre
 
@@ -11,6 +11,7 @@
 - Anchoring with `<a>`
 - Linking pages
 - ID linking
+  - css-Selektor für ID: `#ID`
 - Web links
 - Sending emails with `mailto:`
 
